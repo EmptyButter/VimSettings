@@ -154,6 +154,10 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " Set encoding scheme
 set encoding=UTF-8
 
+" turn relative line numbers on
+:set relativenumber
+:set rnu
+
 "
 " Autopairs specific settings
 "
