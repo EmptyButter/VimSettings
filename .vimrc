@@ -155,10 +155,13 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set encoding=UTF-8
 
 " turn relative line numbers on
-:set relativenumber
-:set rnu
+set relativenumber
+set rnu
 
-"
+" Steady bar in normal mode and line in insert mode
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
 " Autopairs specific settings
 "
 let g:AutoPairsShortcutToggle = '<C-t>'
